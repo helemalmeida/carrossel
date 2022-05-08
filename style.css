@@ -1,0 +1,73 @@
+header h1 {
+    background-color:blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.gallery {
+    width: 500px;
+    height: 490px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.gallery .fotos {
+    width: 800%;
+    animation-name: animação;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.gallery .fotos img {
+    width: 12.4%;
+}
+
+@keyframes animação {
+        0% {
+            margin-left: 0;
+        }
+        20% {
+            margin-left: 0%;
+        }
+        25% {
+            margin-left: -100%;
+        }
+        35% {
+            margin-left: -100%;
+        }
+        40% {
+            margin-left: -200%;
+        }
+        45%{
+            margin-left: -200%;
+        }
+        55% {
+            margin-left: -300%;
+        }
+        65% {
+            margin-left: -300%;
+        }
+        75% {
+            margin-left: -400%;
+        }
+        85% {
+            margin-left: -400%;
+        }
+        90% {
+            margin-left: -500%;
+        }
+        95% {
+            margin-left: -500%;
+        }
+        98% {
+            margin-left: -600%;
+        }
+        100% {
+            margin-left: -600%;
+        }
+}
